@@ -1,0 +1,11 @@
+# Editor
+.idea
+
+
+# npm
+node_modules
+
+
+# misc
+yarn.lock
+.DS_Store
