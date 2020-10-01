@@ -51,7 +51,7 @@ Config
 You can configure i18ner by adding an `.i18nerrc` file on the root of your project.
 
 Default config is :
-```json
+```js
 {
   root:          'src', // Root folder where it will look for translation files
   localeFile:    'locale', // The extension file for i18ner will look (*.[localeFile].[extension], in this example *.locale.yml) 
