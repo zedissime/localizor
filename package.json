@@ -1,11 +1,12 @@
 {
   "name": "localizor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib/localizor.js",
   "author": {
     "name": "Maxime Nguyen",
     "url": "https://github.com/zedissime"
   },
+  "homepage": "https://github.com/zedissime/localizor",
   "description": "A packager that will compact all your translation keys onto one single file.",
   "license": "MIT",
   "bin": {
