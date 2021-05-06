@@ -1,6 +1,6 @@
 {
   "name": "localizor",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "lib/localizor.js",
   "author": {
     "name": "Maxime Nguyen",
