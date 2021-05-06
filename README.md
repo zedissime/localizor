@@ -60,5 +60,6 @@ Default config is :
   targetFile:    'translations', // The path for the main file (/[targetFile].[extension], in this example ./translations.yml)
   watch:         true, // If the script shoud watch file change
   ignoreFiles:   /(^|[\/\\])\../, // Ignores files from being watched ( config here https://github.com/paulmillr/chokidar) 
+  watchFolder:   '.' // Folder where localizor should watch for translation files
 }
 ```
