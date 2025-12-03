@@ -1,6 +1,6 @@
 {
   "name": "localizor",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "main": "lib/localizor.js",
   "author": {
     "name": "Maxime Nguyen",
@@ -10,14 +10,16 @@
   "description": "A packager that will compact all your translation keys onto one single file.",
   "license": "MIT",
   "bin": {
-    "localizor": "./bin/index.js"
+    "localizor": "./bin/index.js",
+    "localizor_check": "./bin/check_yaml.js"
   },
   "scripts": {
-    "localizor": "node ./bin/index.js"
+    "localizor": "node ./bin/index.js",
+    "localizor_check": "node ./bin/check_yaml.js"
   },
   "dependencies": {
-    "chokidar": "^3.4.2",
-    "js-yaml": "^3.14.0",
+    "chokidar": "^5.0.0",
+    "js-yaml": "^4.1.1",
     "lodash": "^4.17.21"
   }
 }
